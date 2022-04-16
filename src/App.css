@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(0.25turn, #bfe9f1, #f0ee85);
+  font-family: cursive
+}
+
+.Profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  height: 40px;
+  width: 110px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family: cursive;
+  font-size: large;
+  font-weight: 700;
+  color: #bdbb3c;
+  background-color: #eeedc6;
+  border: 2px solid #bdbb3c;
+  border-radius: 10px;
+}
+ 
+h2 {
+  text-align: center;
+  font-size: large;
+  color: #1a7b8f
+}
+
+span {
+  color: #1a7b8f;
+}
+
+p {
+  color: #1a7b8f;
+}
+
+img {
+  border: 2px solid #1a7b8f;
+  border-radius: 10px;
+}
