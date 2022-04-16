@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Profile from './Profile';
+import Timer from './Timer';
 import MyPic from './profile pic.jpg'
 
 
@@ -26,7 +26,7 @@ return(
   
     {this.state.show ? 
       <>
-         <Profile/>
+         <Timer/>
        <p>Seconds since the component was mounted</p>
        <h3> <span>FullName:</span> {this.state.Person.fullName}</h3>
        <h3> <span>Bio:</span> {this.state.Person.bio}</h3>

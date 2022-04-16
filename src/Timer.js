@@ -1,7 +1,7 @@
 import { Component } from "react";
 
 
-class Profile extends Component{
+class timer extends Component{
   state={
     timer:0
   }
@@ -23,6 +23,6 @@ componentWillUnmount(){
 }
 
    
-export default Profile;
+export default Timer;
 
 
